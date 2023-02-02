@@ -1,0 +1,73 @@
+*{box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body{
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+
+}
+
+.topside{  background-image: url(../image/ana.jpg); 
+    width: 100%;
+    height: 66vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment:fixed ;
+    }
+
+   
+.topside #navbar{ background-color: rgba(5, 5, 5, 0.11); 
+position: sticky;
+
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background: #000000bf;
+}
+
+
+.offcanvas{ background-color: #00000042;}
+.offcanvas-title{color: white;}
+
+.topside h1{  text-align: center; color: white; padding-top: 20rem;}
+
+.başlık{ color: white; 
+    padding-top:   60px;
+    width: 100% ;
+  margin-top: 200px;
+  height: 200px;
+  
+  }
+
+
+  .image h1{ text-align: center;  color: #000000;
+    font-size: xxx-large;}
+
+.image img{ border: 2px solid rgb(17, 170, 55);}
+  .image h2{ text-align: center; }
+
+
+hr{ margin: 1rem 0;
+    color: black;
+    border: 0;
+    border-top: var(--bs-border-width) solid;
+    opacity: 4.25;}
+
+
+
+.tatlılar{ background-color:wheat}
+
+.tatlılar h1{ color:#000000; }
+
+
+
+
